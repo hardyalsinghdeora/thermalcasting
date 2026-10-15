@@ -1,0 +1,245 @@
+body {
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-size: 14px;
+    border-top: 5px solid #5AA6D6;
+    background-image: url('../images/body-tail.gif');
+}
+input, textarea, select {
+    font-size: 12px !important;
+}
+.main-area {
+    background-color:#FFFFFF;
+    box-shadow: 0px 1px 2px #CCCCCC;
+    -webkit-box-shadow: 0px 1px 2px #CCCCCC;
+    -moz-box-shadow: 0px 1px 2px #CCCCCC;
+}
+.main-title {
+    color: #333333;
+    font-size: 25px;
+    margin: 0px;
+    padding: 35px 0px 20px 0px;
+}
+.main-title span {
+    font-size: 15px;
+}
+.header {
+    border-radius: 0px;
+}
+.title {
+    font-size: 18px;
+    border-bottom: 1px solid #333;
+}
+.navbar {
+    background: #606060;
+    background: -moz-linear-gradient(top, #606060 0%, #606060 50%, #808080 51%, #808080 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #606060), color-stop(50%, #606060), color-stop(51%, #808080), color-stop(100%, #808080));
+    background: -webkit-linear-gradient(top, #606060 0%, #606060 50%, #808080 51%, #808080 100%);
+    background: -o-linear-gradient(top, #606060 0%, #606060 50%, #808080 51%, #808080 100%);
+    background: -ms-linear-gradient(top, #606060 0%, #606060 50%, #808080 51%, #808080 100%);
+    background: linear-gradient(to bottom, #808080 0%, #808080 50%, #606060 51%, #606060 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606060', endColorstr='#808080', GradientType=0 );
+
+    border-radius: 4px;
+    -khtml-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    -ms-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    -o-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+
+}
+.nav li a {
+    width: 102px;
+    padding: 15px 0px;
+    color:#FFFFFF;
+    text-align:center;
+    border-left: 1px solid #FFFFFF;
+}
+.nav li:first-child a {
+    border-left: 0px none;
+}
+/* ACTION STATES */
+.nav .menu li a
+{
+    background-position: 100% 0;
+    outline: none;
+}
+.nav .menu li a:hover
+{
+    background-position: 100% -72px;
+}
+.nav .menu li#home a
+{
+    background-position: 0 0;
+}
+.nav .menu li#home a:hover
+{
+    background-position:0 -72px;
+}
+.nav .menu li a.select
+{
+    color:#A7C63C;
+    font-weight:bold;
+}
+.sub-menu {
+    display: none;
+    background: #343a40 !important;
+    position: absolute;
+    padding: 0;
+    list-style: none;
+    width: 200px;
+    z-index: 9999;
+}
+.sub-menu a {
+    color: #FFFFFF;
+}
+.nav li:hover .sub-menu {
+    display: inline;
+}
+.sub-menu li:hover a {
+    border-bottom: 0px none;
+}
+.head_data
+{
+    padding:10px 0 0 0;
+}
+.head_data p
+{
+    text-align:right;
+}
+.head_data a
+{
+    color: #333;
+    text-decoration: none;
+}
+/* social link */
+.icon-bar {
+    margin: 10px 0;
+}
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px 10px 7px 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    width: 45px;
+    float: right;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.icon-bar a:hover {
+    background-color: #000;
+}
+.facebook {
+    background: #3B5998;
+    color: #FFFFFF;
+    text-align: right;
+}
+.google-plus {
+    background: #DD4B39;
+    color: #FFFFFF;
+    text-align: right;
+}
+.banner-effect {
+    background: #333;
+    z-index: -1;    
+    padding: 10px 0px;
+}
+a.disabled {
+    color: inherit;
+    text-decoration:none;
+}
+a.disabled:hover {
+	text-decoration:underline;
+}
+.banner {
+/*
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 0 5px 0;
+*/
+}
+.slider-box {
+    border: 20px solid #FFFFFF;
+    margin-top: -20px;
+    z-index: 9999;
+}
+.slogan {
+    padding: 35px 0 36px 0;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman" ,Times,serif;
+    line-height: 24px;
+    color: #959595;
+}
+.slogan h1 span {
+}
+.services {
+}
+.services h1 {
+    margin: 0px;
+    color: #333333;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+}
+.services h1 span {
+    border-bottom: 1px solid #333333;
+}
+.service-div {
+    padding: 10px 10px;
+}
+.service-div img {
+    width: 100% !important;
+}
+.service-div a:hover {
+    text-decoration: none;
+}
+h1.landscaping-title {
+    background: #A0CF67;
+}
+h1.pressure-wash-title {
+    background: #759DD1;
+}
+h1.roof-cleaning-title {
+    background: #F9A25F;
+}
+h1.house-cleaning-title {
+    background: #9C7DB9;
+}
+h1.maid-service-title {
+    background: #794400;
+}
+h1.enquiry-service-title {
+    background: #75745D;
+}
+.enquiries {
+    border-top: 1px solid #f0f0f0;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.enquiry-form {
+    background: #F9F9F9;
+    border: #9C7DB9 1px solid;
+    padding: 30px 25px 34px 25px;
+}
+.enquiries-textbox {
+    height: 150px !important;
+}
+.service-block {
+    /*border: 1px solid #CCCCCC;
+    background: #FFFFFF;
+    border-radius: 5px;*/
+    padding-top: 20px;
+    border-top: 1px solid #CCCCCC;
+}
+.footer {
+    background-color: #82BDDD;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.footer p {
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 12px !important;
+  }
+  h1 {
+  	font-size: 25px !important;
+  }
+  .nav li a {
+    width: 125px !important;
+  }
+}

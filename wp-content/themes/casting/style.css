@@ -1,0 +1,20 @@
+
+/*
+ Theme Name:   Thermal Casting
+ Theme URI:    http://thermalcasting.com/
+ Description:  Thermal Casting
+ Author:       Hardyal Singh
+ Author URI:   http://thermalcasting.com/ 
+ Template:     twentyfifteen
+ Version:      1.0.0
+ Tags:         Thermal, Casting, Thermal-Casting
+ Text Domain:  Thermal Casting theme
+*/
+  
+/* Theme customization starts here
+-------------------------------------------------------------- */
+@import url("assets/css/font-awesome.min.css");
+@import url("assets/css/bootstrap.min.css");
+@import url("assets/css/bootstrap-theme.min.css");
+@import url("assets/css/style.css");
+@import url("assets/css/mobile.css");

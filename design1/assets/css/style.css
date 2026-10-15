@@ -1,0 +1,196 @@
+body {
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-size: 14px;
+    border-bottom: 5px solid #5C67A5;
+}
+input, textarea, select {
+    font-size: 12px !important;
+}
+.title {
+    font-size: 18px;
+    border-bottom: 1px solid #333;
+
+}
+.logo {
+    float: left;
+}
+.navbar {
+    margin: 0px;
+    padding: 10px 0px;
+}
+.header {
+    background: #333;
+    border-radius: 0px;
+}
+.banner-effect {
+    background: #333;
+    z-index: -1;    
+    padding: 10px 0px;
+}
+.main-title {
+    color: #FFF;
+    font-size: 25px;
+    margin: 0px;
+    padding: 25px 0px 0px 20px;
+}
+.main-logo {
+    border-radius: 8px;
+}
+.main-title span {
+    font-size: 15px;
+}
+.call_us_at {
+    color: #FFFFFF;
+    padding-top: 20px;
+    text-align: right;
+}
+.top-icons {
+    padding: 30px 0 0;
+    text-align: right;
+}
+.top-icons a {
+    padding: 0 5px;
+    color: #FFFFFF;
+}
+a.disabled {
+    color: inherit;
+    text-decoration:none;
+}
+a.disabled:hover {
+	text-decoration:underline;
+}
+.nav {
+    margin: 6px 0px 0px;
+    z-index: 999;
+}
+.nav li a {
+    color: #FFF;
+    padding: 10px;
+}
+.nav li.active a, .nav li a:hover {
+    background: none;
+    border-bottom: 1px solid #82BDDD;
+}
+.sub-menu {
+    display: none;
+    margin-top: -5px;
+    background: #343a40 !important;
+    position: absolute;
+    padding: 0;
+    list-style: none;
+    width: 200px;
+    z-index: 9999;
+}
+.sub-menu a {
+    color: #FFFFFF;
+}
+.nav li:hover .sub-menu {
+    display: inline;
+}
+.sub-menu li:hover a {
+    border-bottom: 0px none;
+}
+
+.banner {
+    background: #F9F9F9;
+    border-top: 5px solid #749CD0;
+    border-bottom: 10px solid #FFFFFF;
+    padding: 0 0 10px 0;
+}
+.slider-box {
+    border: 20px solid #FFFFFF;
+    margin-top: -20px;
+    z-index: 9999;
+}
+.slogan {
+    background: #FFFFFF;
+    border-top: 1px solid #F9F9F9;
+    border-bottom: 1px solid #F9F9F9;
+    padding: 35px 0 36px 0;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman" ,Times,serif;
+    line-height: 24px;
+    color: #959595;
+}
+.slogan h1 span {
+    border-bottom: 1px solid #333;
+}
+.services {
+    background: #F9F9F9;
+    border-top: 10px solid #FFFFFF;
+    border-bottom: 10px solid #FFFFFF;
+}
+.services h1 {
+    margin: 0px;
+    color: #333333;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+}
+.services h1 span {
+    border-bottom: 1px solid #333;
+}
+.service-div {
+    padding: 10px 10px;
+}
+.service-div img {
+    width: 100% !important;
+}
+.service-div a:hover {
+    text-decoration: none;
+}
+.enquiries {
+    border-top: 1px solid #f0f0f0;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.enquiry-form {
+    background: #F9F9F9;
+    border: #9C7DB9 1px solid;
+    padding: 30px 25px 34px 25px;
+}
+.enquiries-textbox {
+    height: 150px !important;
+}
+.service-block {
+    /*border: 1px solid #CCCCCC;
+    background: #FFFFFF;
+    border-radius: 5px;*/
+    padding-top: 20px;
+    border-top: 1px solid #CCCCCC;
+}
+.footer {
+    background: #FFFFFF;
+    border-top: 1px solid #F9F9F9;
+    border-bottom: 5px solid #82BDDD;
+    color: #888;
+    font-size: 12px;
+    padding: 15px;
+}
+.footer-menu {
+    text-align: right;
+}
+.icon-bar {
+    float: left;
+    padding-top: 25px;
+    width: 50px;
+}
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px 16px 16px 14px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+.icon-bar a:hover {
+    background-color: #000;
+}
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+.google-plus {
+    background: #DD4B39;
+    color: white;
+}
